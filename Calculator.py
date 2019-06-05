@@ -4,7 +4,7 @@ the_result = 0
 Frist_number = float(input())
 Operations = "Operations available: add(+), sub(-), mult(*), div(/), sqrt, pow(**)"
 print(Operations)
-Operation = str(input("Choose the operation: "))
+Operation = str(input("Choose the operation!!!: "))
 if Operation == "sqrt":
     the_result = sqrt(Frist_number)
 else:
